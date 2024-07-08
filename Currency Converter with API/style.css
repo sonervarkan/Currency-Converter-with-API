@@ -1,0 +1,45 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    font-size: xx-large;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    position: absolute;
+    left: 30%;
+    gap: 10px;
+}
+.head{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: rgb(99, 125, 186);
+    height: 50px;
+}
+.currency{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    gap: 10px;
+}
+
+input{
+    width: 100%;
+    height: 50px;
+    border: none;
+}
+input:hover{
+    background-color: antiquewhite;
+}
+button:hover{
+    background-color: antiquewhite;
+}
+
+.passive{
+visibility: hidden;
+}

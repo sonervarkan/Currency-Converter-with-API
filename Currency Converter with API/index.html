@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="head">Currency Converter</div>
+        <div class="currency">
+            <input type="text" id="currency_one" list="currency1" placeholder="First Currency">
+            <datalist id="currency1">
+                <!--<option value="USD"></option>
+                <option value="EUR"></option>
+                <option value="INR"></option>-->
+            </datalist>
+            <input type="text" id="currency_two" list="currency2" placeholder="Second Currency">
+            <datalist id="currency2">
+                <!--<option value="USD"></option>
+                <option value="EUR"></option>
+                <option value="INR"></option>-->
+            </datalist>
+            <input type="number" id="amount" placeholder="Amount">
+        </div>
+        <button id="calculate">Calculator</button>
+        <div class="result passive">Result</div>
+        
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
